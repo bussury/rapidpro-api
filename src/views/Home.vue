@@ -6,9 +6,9 @@
       >
         Here goes your content. You can also go the
         <router-link
-          to="/about"
+          to="/message"
           class="text-indigo-600 underline hover:text-indigo-500"
-          >About page</router-link
+          >Message page</router-link
         >.
       </div>
     </div>

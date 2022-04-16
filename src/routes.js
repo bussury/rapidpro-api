@@ -8,10 +8,10 @@ export let routes = [
       layout: 'LayoutClient' 
     } 
   },
-  { path: '/about', 
-    component: () => import('@/views/About.vue'), 
+  { path: '/message', 
+    component: () => import('@/views/Message.vue'), 
     meta: { 
-      title: 'About',
+      title: 'Message',
       layout: 'LayoutClient'
     } 
   },

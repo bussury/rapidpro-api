@@ -205,7 +205,7 @@ export default defineComponent({
     showProfileMenu: false,
     links: [
       { text: 'Home', to: '/' },
-      { text: 'About', to: '/about' },
+      { text: 'Message', to: '/message' },
     ],
   }),
 })
