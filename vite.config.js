@@ -19,5 +19,15 @@ export default defineConfig({
         alias: {
           '@': srcPath,
         },
+    },
+    server: {
+      proxy: {
+        "/api": {
+          target: "http://localhost:8000/api/v2",
+          changeOrigin: true,
+          secure: false,
+          rewrite: (path) => path.replace(/^\/api/, ""),
+        },
       },
+    }
 })

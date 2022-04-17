@@ -1,5 +1,7 @@
 <template>
-    <AppLayout />
+   <Suspense>
+        <AppLayout />
+   </Suspense>
 </template>
 
 <script setup>
